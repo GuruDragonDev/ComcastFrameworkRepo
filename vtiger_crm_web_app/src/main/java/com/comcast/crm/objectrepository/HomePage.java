@@ -10,6 +10,9 @@ import com.comcast.crm.generic.webdriverutility.ActionUtility;
 public class HomePage {
 	private WebDriver driver;
 	ActionUtility alib = new ActionUtility();
+	
+	@FindBy(partialLinkText  = "Projects")
+	private WebElement projectsLink;
 
 	@FindBy(id = "appnavigator")
 	private WebElement navigatorBtn;
