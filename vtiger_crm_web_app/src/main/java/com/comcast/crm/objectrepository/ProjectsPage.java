@@ -6,4 +6,7 @@ import org.openqa.selenium.support.FindBy;
 public class ProjectsPage {
 @FindBy(id = "Project_listView_basicAction_LBL_ADD_RECORD")
 private WebElement addProjectBtn;
+
+@FindBy(id = "Project_basicAction_LBL_IMPORT")
+private WebElement importBtn;
 }
